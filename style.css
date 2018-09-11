@@ -2,12 +2,19 @@ body {
 
 }
 
-h1 {
+h2 {
     color: grey;
+    font-family: Opensans;
+    text-align: center;
+}
+h5 {
+    color: grey;
+    font-family: Opensans;
     text-align: center;
 }
 
 p {
+    color: grey;
     font-family: Opensans;
     font-size: 20px;
 }
