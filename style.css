@@ -39,6 +39,16 @@ h3 {
     font-weight: 700; 
     line-height: 15.4px; 
 } 
+h6 { 
+    font-family: "Open Sans"; 
+    font-size: 9px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    color: white;
+    background-color: darkgray;
+    line-height: 10px; 
+} 
 p { 
     font-family: "Open Sans"; 
     font-size: 14px; 
