@@ -1,4 +1,7 @@
 body {
+    background-color: white;
+    padding: 100px
+    
 
 }
 
@@ -46,8 +49,9 @@ h6 {
     font-variant: normal; 
     font-weight: 700; 
     color: white;
-    background-color: darkgray;
+    background-color: #3f4247;
     line-height: 10px; 
+    margin: 10px
 } 
 p { 
     font-family: "Open Sans"; 
