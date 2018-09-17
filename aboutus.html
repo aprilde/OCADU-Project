@@ -35,14 +35,22 @@
 
     <form action="/action_page.php">
         <p>
-        1. Do you often order a large, medium or small? <input type="text" name="fname"><br>
+        1. Do you often order a large, medium or small? <input id="input1" type="text" name="fname"><br>
         2. Do you eat many snacks throughout the day? <input type="text" name="fname"><br>
         3. How many meals a day do you eat? <input type="text" name="fname"><br>
         4. Are you a vegan or vegetarian? <input type="text" name="fname"><br>
   <button type="button" class="question1" align="right"
-onclick="document.getElementById('demo').innerHTML = Date()">
+onclick="document.getElementById('demo').innerHTML = printcoolstuff()">
 SUBMIT</button>
         </p>
+        <script>
+            function printcoolstuff(){
+                var mystring = 'Awesome! <br>You should order a portion size of 5!<br>';
+                mystring += Date()
+                mystring += document.getElementById('input1').value;
+                return mystring;
+            }
+        </script>
 </form>
 
     <p id="demo"></p>
