@@ -134,11 +134,12 @@ p, .question1 {
 } 
 blockquote { 
     font-family: "Open Sans"; 
-    font-size: 21px; 
+    font-size: 18px; 
     font-style: normal; 
     font-variant: normal; 
     font-weight: 400; 
-    line-height: 30px; 
+    line-height: 19px; 
+    text-indent: 140px;
 } 
 pre { 
     font-family: "Open Sans"; 
