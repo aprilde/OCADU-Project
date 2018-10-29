@@ -4,7 +4,7 @@
 }
 .image-banner {
     float: middle;
-}
+    align: middle;
 }
 body {
     background-color: white;
